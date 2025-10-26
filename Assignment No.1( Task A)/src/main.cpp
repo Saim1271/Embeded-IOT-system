@@ -1,7 +1,7 @@
 /*
   --- Task A: LED Mode Controller with Fade ---
-  Name: Ibtisam Butt
-  Reg. No: 23-NTU-CS-1269
+  Name: M.Saim Mustafa
+  Reg. No: 23-NTU-CS-1271
   Description: Two push buttons control LED modes and show the state on OLED
 */
 
