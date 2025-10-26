@@ -1,3 +1,7 @@
+// ALi Hassan
+// 1011
+// Blinking LED using timer
+
 #include <Arduino.h>
 
 #define LED_PIN 2            // GPIO4 for LED
@@ -20,7 +24,7 @@ void setup() {
   timerAttachInterrupt(My_timer, &onTimer, true);
 
   // trigger every 1 000 000 µs = 1 s
-  timerAlarmWrite(My_timer, 1000000, true);
+  timerAlarmWrite(My_timer, 1'000'000, true);
 
   // enable alarm
   timerAlarmEnable(My_timer);
